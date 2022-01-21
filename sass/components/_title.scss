@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  font-family: var(--main-font);
+  @include font(700, 36px, 1.17);
+  color: var(--main-color);
+
+  &__team,
+  &__product,
+  &__customers {
+    margin-bottom: 50px;
+  }
+}

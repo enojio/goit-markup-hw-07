@@ -1,0 +1,45 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 2px solid tomato; */
+
+  .customers & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .features & {
+    padding-top: 94px;
+    padding-bottom: 47px;
+  }
+
+  .product & {
+    padding-top: 47px;
+    padding-bottom: 94px;
+  }
+
+  .project & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .footer & {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: baseline;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+
+  .team & {
+    background-color: var(--team-bg);
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}

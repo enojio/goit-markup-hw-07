@@ -1,0 +1,7 @@
+.footer-suptitle {
+  margin-bottom: 20px;
+  font-family: var(--main-font);
+  @include font(700, 14px, 1.14);
+  text-transform: uppercase;
+  color: var(--white-color);
+}

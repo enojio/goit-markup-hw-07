@@ -1,0 +1,20 @@
+.logo {
+  color: var(--active-color);
+  font-family: var(--logo-font);
+  @include font(700, 26px, 1.19);
+
+  &__header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  &__studio-header {
+    color: var(--logo-color);
+  }
+  &__footer {
+    display: block;
+    margin-bottom: 20px;
+  }
+  &__studio-footer {
+    color: var(--white-color);
+  }
+}

@@ -1,0 +1,35 @@
+.features-list {
+  @extend %flex-container;
+
+  &__item {
+    width: 270px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: var(--team-bg);
+  }
+
+  &__title {
+    @include font(700, 14px, 1.14);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--main-color);
+  }
+
+  &__discription {
+    @include font(400, 14px, 1.71);
+    font-family: var(--main-font);
+    color: var(--sec-color);
+  }
+}
